@@ -12,8 +12,8 @@ while True:
         tax=(income-6200)*0.15
     elif income<=40000:
         tax=(income-17000)*0.265 + 2361
-     elif income <=120000:
-         tax=(income-40000)*0.32 + 18607
+     #elif income <=120000:
+         #tax=(income-40000)*0.32 + 18607
      else:
          tax=(income-120000)*0.39+46067
          
